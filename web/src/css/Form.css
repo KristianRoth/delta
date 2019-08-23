@@ -1,0 +1,25 @@
+.signupWindow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -75%);
+  text-align: center;
+  height: 400px
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  background: #ffbaba;
+  color: #d8000c;
+  border-radius: 4px;
+  margin: 4px
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 400;
+}
